@@ -1,0 +1,148 @@
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+run
+test
+run
+test
+run
+test
+quit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+set testOptions.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test+=Tests.Argument(TestFrameworks.ScalaTest, "-oDU")
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+run
+test
+clean
+build
+compile
+reload
+test
+reload
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+test
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+set testOptions.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test+=Tests.Argument(TestFrameworks.ScalaTest, "-oDU")
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+set testOptions.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test+=Tests.Argument(TestFrameworks.ScalaTest, "-oDU")
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+initialize
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:testOptions
+show {file:/home/me/IdeaProjects/gameOfLife/}gameoflife/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=false
+{file:/home/me/IdeaProjects/gameOfLife/}gameoflife/testOnly gameOfLife.EngineSpec
+set parallelExecution.in(ProjectRef(uri("file:/home/me/IdeaProjects/gameOfLife/"), "gameoflife")) in Test:=true
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+compile
+build
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/me/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
