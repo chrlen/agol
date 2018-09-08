@@ -7,7 +7,6 @@ import breeze.numerics._
 
 object ConvolutionActor {
   def props(): Props = Props(new ConvolutionActor)
-
   def apply: ConvolutionActor = new ConvolutionActor()
 }
 
