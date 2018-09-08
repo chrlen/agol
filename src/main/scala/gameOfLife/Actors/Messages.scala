@@ -23,6 +23,10 @@ abstract class Pixel extends BaseMessage{
   def coordinates:Tuple2[Int,Int]
   def player:Int
 }
+
+
+case class SetMatrix[T](matrix:DenseMatrix[T])
+
 case object SetPixel{
   val rand = scala.util.Random
   def apply(coordinates: Tuple2[Int, Int],player:Int=0): SetPixel = new SetPixel(coordinates,player)

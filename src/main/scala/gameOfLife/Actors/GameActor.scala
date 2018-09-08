@@ -24,7 +24,8 @@ class GameActor(val representation: Representation,workers:Int = 4) extends Acto
   }
   override def receive: Receive = {
     case s:SetPixel => representation.insert(s)
-    case Trigger() => representation.iterate(router)
+    case Trigger() => representation.iterate(router,self)
+    case r:RepresentationSettings => representation.set(r)
     case _ => log.info("unknown")
   }
 }
