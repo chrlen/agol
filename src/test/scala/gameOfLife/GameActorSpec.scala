@@ -15,15 +15,15 @@ class GameActorSpec() extends TestKit(ActorSystem("MySpec")) with ImplicitSender
 
   "An GameActor" must {
     "send back messages unchanged" in {
-      val echo = system.actorOf(GameActor.props(new SimpleRepresentation(100,100)))
-      val pixels = List[(Int,Int)](
-        (5,5),(5,6),(6,5),(4,5))
-      /*
+      val echo = system.actorOf(GameActor.props(new SimpleRepresentation(10000, 10000)))
+      val pixels = List[(Int, Int)](
+        (5, 5), (5, 6), (6, 5), (4, 5))
+
       pixels.foreach(p => {
         echo ! SetPixel(p)
       })
-      echo ! Trigger
-      */
+      //echo ! Trigger
+
     }
 
   }

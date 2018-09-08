@@ -1,6 +1,6 @@
 package gameOfLife.Actors
 
-import akka.actor.{Actor, ActorLogging, Props}
+import akka.actor.{ Actor, ActorLogging, Props }
 import breeze.linalg.sum
 import breeze.math._
 import breeze.numerics._
